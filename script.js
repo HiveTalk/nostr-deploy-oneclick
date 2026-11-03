@@ -58,7 +58,7 @@ Deployment details:
 Use these exact source repositories and branches (do not search alternatives):
 - swarm repo: ${swarmRepoInput.value || "https://github.com/hivetalk/swarm"}
 - swarm branch: ${swarmBranchInput.value || "zeabur-dashboard"}
-- cms repo: ${cmsRepoInput.value || "https://github.com/bitkarrot/nostr-cms"}
+- cms repo: ${cmsRepoInput.value || "https://github.com/HiveTalk/nostr-cms"}
 - cms branch: ${cmsBranchInput.value || "main"}`;
 
   if (target === "exe.dev") {
